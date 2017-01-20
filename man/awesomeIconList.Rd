@@ -1,0 +1,20 @@
+% Please edit documentation in R/plugin-awesomeMarkers.R
+\name{awesomeIconList}
+\alias{awesomeIconList}
+\title{Make awesome-icon set}
+\usage{
+awesomeIconList(...)
+}
+\arguments{
+\item{...}{icons created from \code{\link{makeAwesomeIcon}()}}
+}
+\description{
+Make awesome-icon set
+}
+\examples{
+
+iconSet = awesomeIconList(home = makeAwesomeIcon(icon = "Home", library = "fa"), 
+    flag = makeAwesomeIcon(icon = "Flag", library = "fa"))
+
+iconSet[c("home", "flag")]
+}
